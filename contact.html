@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MphoEntle Bakery | Contact</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <h1>MphoEntle Bakery</h1>
+  <p>Place an order or ask a question.</p>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main class="container">
+
+  <div class="form">
+    <h2>Contact Us</h2>
+
+    <p>
+      Email:
+      <a href="mailto:mphoentlebakery@example.com">mphoentlebakery@example.com</a>
+      <br />
+      Phone: +267 7XX XXXX
+      <br />
+      Location: Gaborone, Botswana
+    </p>
+
+    <h3>Quick Order Form (Demo)</h3>
+    <p>This form is for practice. It won’t submit anywhere unless you connect it to a backend.</p>
+
+    <form>
+      <label for="name">Full Name</label>
+      <input id="name" type="text" placeholder="e.g. Mpho Molefe" required />
+
+      <label for="product">Product</label>
+      <select id="product" required>
+        <option value="">-- Select --</option>
+        <option>Bread (Large loaf)</option>
+        <option>Scones (6 pack)</option>
+        <option>Cupcakes (Box of 4)</option>
+        <option>Custom Cake</option>
+      </select>
+
+      <label for="message">Order Details</label>
+      <textarea id="message" rows="5" placeholder="e.g. Chocolate cake, write 'Happy Birthday Neo'..."></textarea>
+
+      <button type="button" onclick="alert('Form demo: In real projects, connect to a server or Google Forms!')">
+        Send (Demo)
+      </button>
+    </form>
+  </div>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 MphoEntle Bakery</p>
+</footer>
+
+</body>
+</html>
