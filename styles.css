@@ -580,3 +580,17 @@ button { cursor: pointer; font-family: inherit; }
   margin-bottom: 4px;
 }
 .highlight-banner p { font-size: 14px; opacity: 0.9; }
+
+
+.page {
+  display: none;
+}
+
+.page.active {
+  display: block;
+}
+
+.sidebar-overlay {
+  display: none;
+}
+
