@@ -1,5 +1,4 @@
-<script>
-  // ---- NAVIGATION ----
+ // ---- NAVIGATION ----
   const pages = ['home','about','menu','gallery','testimonials','contact'];
 
   function navigate(page) {
@@ -114,4 +113,3 @@
     success.style.display = 'block';
     success.scrollIntoView({behavior:'smooth', block:'center'});
   }
-</script>
