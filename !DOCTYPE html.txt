@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+  border:1px  Solid brown;
+}
+</style>
+<body>
+
+<h2>PRICE LIST</h2>
+
+<table style="width:50%">
+  <tr>
+    <th>CAKES</th>
+    <th>PRICE</th>
+    
+    </tr>
+  <tr>
+    <td>Chocolate</td>
+    <td>P600
+  
+    </tr>
+  <tr>
+    <td>Vanilla</td>
+    <td>P400</td>
+    </tr>
+    
+  <tr>
+  <td>Red Velvet</td>
+  <td>P700</td>
+  </tr>
+  
+  <tr>
+ <td> Black forest</td>
+ <td>P800</td>
+ 
+</table>
+</body>
+</html>
