@@ -326,9 +326,24 @@
  <img src="logo.png" alt="Mphoentle Bakery Logo">
 </div>
     <div class="site-title">Mphoentle <span>Bakery</span></div>
-    <button class="mobile-nav-toggle" onclick="toggleSidebar<div class="gallery-grid">
-
-  <div class="gallery-item" onclick="openLightbox('images/croissant.jpg','Croissant Display')">
+    <button class="mobile-nav-toggle" onclick="toggleSidebar()">☰</button>
+ </header>      
+  <div class="layout">
+    <aside class="sidebar" id="sidebar-gallery">
+      <div class="sidebar-label">Navigate</div>
+      <button class="nav-btn" onclick="navigate('home')">Home</button>
+      <button class="nav-btn" onclick="navigate('about')">About us</button>
+      <button class="nav-btn active-nav" onclick="navigate('gallery')">Gallery</button>
+      <button class="nav-btn" onclick="navigate('testimonials')">Testimonials</button>
+      <button class="nav-btn" onclick="navigate('menu')">Menu</button>
+      <button class="nav-btn" onclick="navigate('contact')">Contact</button>
+    </aside>
+    <main class="main-content">
+      <h2 class="section-heading">Gallery</h2>
+      <p class="section-sub">A peek inside our kitchen and display cases.</p>
+      <div class="divider"></div>
+       <div class="gallery-grid">
+ <div class="gallery-item" onclick="openLightbox('images/croissant.jpg','Croissant Display')">
     <div class="gallery-img">
       <img src="images/croissant.jpg" alt="Croissant Display">
     </div>
@@ -369,24 +384,8 @@
     </div>
     <div class="gallery-label">Our Coffee Bar</div>
   </div>
-</div> 
-()">☰</button>
-  </header>
-  <div class="layout">
-    <aside class="sidebar" id="sidebar-gallery">
-      <div class="sidebar-label">Navigate</div>
-      <button class="nav-btn" onclick="navigate('home')">Home</button>
-      <button class="nav-btn" onclick="navigate('about')">About us</button>
-      <button class="nav-btn active-nav" onclick="navigate('gallery')">Gallery</button>
-      <button class="nav-btn" onclick="navigate('testimonials')">Testimonials</button>
-      <button class="nav-btn" onclick="navigate('menu')">Menu</button>
-      <button class="nav-btn" onclick="navigate('contact')">Contact</button>
-    </aside>
-    <main class="main-content">
-      <h2 class="section-heading">Gallery</h2>
-      <p class="section-sub">A peek inside our kitchen and display cases.</p>
-      <div class="divider"></div>
-          </main>
+</div>
+  </main>
   </div>
   <footer class="site-footer">
     <div class="footer-brand">© 2025 Mphoentle Bakery</div>
