@@ -161,7 +161,7 @@ button { cursor: pointer; font-family: inherit; }
   overflow: hidden;
   border-radius: var(--radius);
   background: var(--blush);
-  height: 320px;
+  height: 240px;
   margin-bottom: 28px;
   box-shadow: 0 4px 24px var(--shadow);
 }
