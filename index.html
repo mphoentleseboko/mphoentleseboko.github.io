@@ -22,6 +22,7 @@
   </header>
   <div class="layout">
     <aside class="sidebar" id="sidebar-home">
+      <nav>
       <div class="sidebar-label">Navigate</div>
       <button class="nav-btn active-nav" onclick="navigate('home')">HOME</button>
       <button class="nav-btn" onclick="navigate('about')">ABOUT</button>
@@ -29,6 +30,7 @@
       <button class="nav-btn" onclick="navigate('menu')">MENU</button>
       <button class="nav-btn" onclick="navigate('gallery')">GALLERY</button>
       <button class="nav-btn" onclick="navigate('testimonials')">TESTIMONIALS</button>
+        </nav>
     </aside>
     <main class="main-content">
       <!-- Slider -->
@@ -130,12 +132,16 @@
   <div class="layout">
     <aside class="sidebar" id="sidebar-about">
       <div class="sidebar-label">Navigate</div>
+
+      <nav>
       <button class="nav-btn" onclick="navigate('home')">HOME</button>
       <button class="nav-btn active-nav" onclick="navigate('about')">ABOUT</button>
       <button class="nav-btn" onclick="navigate('contact')">CONTACT</button>
       <button class="nav-btn" onclick="navigate('menu')">MENU</button>
       <button class="nav-btn" onclick="navigate('gallery')">GALLERY</button>
       <button class="nav-btn" onclick="navigate('testimonials')">TESTIMONIALS</button>
+      </nav>
+      
     </aside>
     <main class="main-content">
       <h2 class="section-heading">About Us</h2>
@@ -185,12 +191,16 @@
   <div class="layout">
     <aside class="sidebar" id="sidebar-menu">
       <div class="sidebar-label">Navigate</div>
+
+      <nav>
       <button class="nav-btn" onclick="navigate('home')">HOME</button>
       <button class="nav-btn" onclick="navigate('about')">ABOUT</button>
       <button class="nav-btn" onclick="navigate('contact')">CONTACT</button>
       <button class="nav-btn active-nav" onclick="navigate('menu')">MENU</button>
       <button class="nav-btn" onclick="navigate('gallery')">GALLERY</button>
       <button class="nav-btn" onclick="navigate('testimonials')">TESTIMONIALS</button>
+      </nav>
+      
       <div style="margin-top:16px;">
         <div class="sidebar-label">Category</div>
         <button class="nav-btn" onclick="filterMenu('all')" id="cat-all" style="margin-bottom:8px;">All</button>
@@ -331,12 +341,15 @@
   <div class="layout">
     <aside class="sidebar" id="sidebar-gallery">
       <div class="sidebar-label">Navigate</div>
+
+      <nav>
       <button class="nav-btn" onclick="navigate('home')">Home</button>
       <button class="nav-btn" onclick="navigate('about')">About us</button>
       <button class="nav-btn active-nav" onclick="navigate('gallery')">Gallery</button>
       <button class="nav-btn" onclick="navigate('testimonials')">Testimonials</button>
       <button class="nav-btn" onclick="navigate('menu')">Menu</button>
       <button class="nav-btn" onclick="navigate('contact')">Contact</button>
+      </nav>
     </aside>
     <main class="main-content">
       <h2 class="section-heading">Gallery</h2>
@@ -426,13 +439,16 @@
   </header>
   <div class="layout">
     <aside class="sidebar" id="sidebar-testimonials">
-      <div class="sidebar-label">Navigate</div>
+    <div class="sidebar-label">Navigate</div>
+      <nav>
       <button class="nav-btn" onclick="navigate('home')">HOME</button>
       <button class="nav-btn" onclick="navigate('about')">ABOUT</button>
       <button class="nav-btn" onclick="navigate('contact')">CONTACT</button>
       <button class="nav-btn" onclick="navigate('menu')">MENU</button>
       <button class="nav-btn" onclick="navigate('gallery')">GALLERY</button>
       <button class="nav-btn active-nav" onclick="navigate('testimonials')">TESTIMONIALS</button>
+      </nav>
+      
     </aside>
     <main class="main-content">
       <h2 class="section-heading">What Our Customers Say</h2>
@@ -498,12 +514,15 @@
   <div class="layout">
     <aside class="sidebar" id="sidebar-contact">
       <div class="sidebar-label">Navigate</div>
+      <nav>
       <button class="nav-btn" onclick="navigate('home')">HOME</button>
       <button class="nav-btn" onclick="navigate('about')">ABOUT</button>
       <button class="nav-btn active-nav" onclick="navigate('contact')">CONTACT</button>
       <button class="nav-btn" onclick="navigate('menu')">MENU</button>
       <button class="nav-btn" onclick="navigate('gallery')">GALLERY</button>
       <button class="nav-btn" onclick="navigate('testimonials')">TESTIMONIALS</button>
+      </nav>
+      
     </aside>
     <main class="main-content">
       <h2 class="section-heading">Contact Us</h2>
@@ -540,11 +559,11 @@
             <div class="form-row">
               <div class="form-group">
                 <label for="fname">First Name *</label>
-                <input type="text" id="fname" placeholder="e.g. Kagiso" required/>
+                <input type="text" id="fname" placeholder="e.g. Mphoentle" required/>
               </div>
               <div class="form-group">
                 <label for="lname">Last Name *</label>
-                <input type="text" id="lname" placeholder="e.g. Mosimanegape" required/>
+                <input type="text" id="lname" placeholder="e.g. Seboko" required/>
               </div>
             </div>
             <div class="form-group">
